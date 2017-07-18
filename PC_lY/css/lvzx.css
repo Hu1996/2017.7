@@ -1,0 +1,488 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+    padding:0;
+	font-family:"微软雅黑";
+	}
+	
+	
+/*这是导航栏*/	
+ul li{
+	list-style:none;
+	}
+header {
+	   width:100%;
+	   height:60px;
+	   background:#333;
+
+		 }
+.header {
+	     width:1200px;
+		 height:60px;
+		 margin:0 auto;
+		 }		 
+.hd1 {
+	  width:490px;
+      height:100%;
+      float:left;
+	  }
+.hd1 img {
+	        width:190px;
+		    height:60px;
+			}	  
+.hd2 { 
+      width:710px;
+      height:100%;
+      float:left;
+	  text-align:center;
+	  }	
+.hd2 ul li {
+	         width:100px;
+			 height:60px;	
+             display:inline-block;
+			 line-height:60px;
+			 color:#FFF;
+			 font-size:18px;
+			 background:#333;
+			 } 
+			 
+.hd2li a{
+	     width:100px;
+	     height:60px;
+	     background:#666;
+	     display:block;
+		 }		 
+	 
+.hd2 ul li a:link {
+	               width:100px;
+				   height:60px;
+				   color:#FFF;
+				   text-decoration:none;
+				   }		 	  	
+				   	 	
+.hd2 ul li a:visited {
+	                  width:100px;
+				      height:60px;
+				      color:#FFF;
+				      text-decoration:none;
+				     }	
+.hd2 ul li a:hover {
+	                  width:100px;
+				      height:60px;
+				      color:#FFF;
+					  display:block;
+				      text-decoration:none;
+					  background:#666;
+				     }
+.hd2 ul li a:active {
+	                  width:100px;
+				      height:60px;
+				      color:#FFF;
+				      text-decoration:none;
+					  background:#999;
+				     }					 
+					 
+					 			 
+/*这是头部*/			 
+.input {
+		width:100%;
+		height:500px; 
+		background:url(../tp/beijing1.jpg);
+		background-size:100% 100%;
+		display:inline-block;
+		}
+		
+.ip { 
+          clear:left;
+          width:610px;
+          height:65px;
+		  color:#F2F2F2;
+		  margin-top:210px;
+		  margin-left:150px;
+		  }	
+		  
+		  
+/*正文*/
+.zwbj { 
+       width:1300px;
+	   height:1250px;
+	   margin:0 auto;
+	   margin-top:50px;
+	   }
+/*左侧*/	   
+.zwzc {
+	   width:70%;
+	   height:100%;
+	   float:left;
+	   }
+.zc1 {
+	   width:910px;
+	   height:40px;
+	   background:#CCC;
+	   border: solid 1px #CCC;
+	   }
+.zcul1 li {
+	    display:inline;
+		height:40px;
+		width:110px;
+		color:#666;
+		font-size:16px;
+		float:left;
+		text-align:center;
+		padding:8px;
+	    }
+.zcul1 li.zculz1 {
+	              width:110px;
+				  height:30px;
+				  background:#FFF;
+				  border-top:1px solid #8CBD29;
+				  }		
+.zcul2 li {
+	    display:inline;
+		height:26px;
+		width:65px;
+		color:#666;
+		font-size:16px;
+		float:right;
+		margin-top:7px;
+		margin-left:10px;
+		padding:2px;
+		text-align:center;
+	    }	
+.zcul2 li.zculz2{
+	             width:60px;
+				 height:23px;
+				 background:#8CBD29;
+				 color:#FFF;
+				 border-radius:5px;
+				 }
+.zc2 {
+	   width:910px;
+	   height:1100px;
+	   margin-top:20px;
+	   }				   	   	   
+.zc2ul1 li{ 
+           width:910px;
+		   height:210px;
+		   background:#FFF;
+		   border:solid 1px #CCC;
+		   margin-top:40px;
+		   }
+.zc2ul1div {
+	        width:350px;
+			height:210px;
+			float:left;
+			
+			}		   
+.zc2ul1div1 {
+	        width:550px;
+			height:210px;
+			float:right;
+			color:#666;
+			}
+.hot2 {
+	   position:relative;
+	   z-index:1;
+	   }			
+.hot1 {
+	width:80px;
+	color:#FFF;
+	height:22px;
+	font-size:16px;
+	background:#8CBD29;
+	position:absolute;
+	text-align:center;
+	padding:2px;
+	border-bottom-right-radius:5px;
+	z-index:3;
+	left: 0px;
+	top: 0px;
+    }
+.zc2ul1div2 {
+	        width:275px;
+			height:170px;
+			float:left;
+			padding-left:40px;
+			padding-top:10px;
+			}
+.zc2ul1div2 table {
+	               margin-top:5px;
+				   }
+.zc2ul1div2 .h1 {
+	            font-size:24px;
+				color:#333;
+				}
+.zc2ul1div2 .h2 {
+	            font-size:16px;
+				color:#666
+				}
+.ip3 {
+	  width:44px;
+	  height:24px;
+	  margin:0 auto;
+	  background:#FFF;
+	  border-radius:5px;
+	  border: solid 1px #0F0;
+	  color:#333;
+	  font-size:15px;
+	  }											
+.zc2ul1div3 {
+	        width:205px;
+			height:180px;
+			float:right;
+			padding-left:30px;
+			padding-top:60px;
+			}
+.div3ys {
+	     color:#F90;
+		 }			
+.div3dz {
+	      font-size:28px;
+		  }			
+.div3xz {
+	      font-size:18px;
+		  }	
+.ip4 {
+	  width:150px;
+	  height:40px;
+	  border-radius:5px;
+	  border: solid 1px #FC0;
+	  background:#E98B1C;
+	  font-size:20px;
+	  color:#FFF;
+	  }		  		
+.zc2ul1div4 {
+	        width:516px;
+			height:22px;
+			background:#E7E7E7;
+			clear:left;
+			padding:4px;
+			padding-left:30px;
+			}
+.zc2ul1div4ziti{
+	            color:#8CBD29;
+				}											   
+.zc2ul2 li {
+	        width:910px;
+			height:70px;
+		    margin-top:20px;
+			text-align:center;
+			}	
+.ip2 {
+	  width:200px;
+	  height:50px;
+	  background:#F6F6F6;
+	  margin:0 auto;
+	  font-size:20px;
+	  border-radius:10px;
+	  border: 1px solid #CCC;
+	  }	
+	  			   
+/*-------------------------------------------*/	
+/*右侧*/
+.zwyc {
+	    width:30%;
+		height:100%;
+		float:right;
+		}	
+/*景点推荐*/		
+.jdtj {
+	    width:365px;
+		height:350px;
+		border: solid 1px #CCC;
+		margin-left:10px;
+		}
+.jdtj1 {
+	    width:100%;
+		height:40px;
+		background:#CCC;
+		}				   	   	  
+.jdtj1 p {
+	      font-size:18px;
+		  padding:8px;
+		  margin-left:5px;
+		  color:#666;
+		  }	
+.jdtj2 {
+	     width:100%;
+		 height:310px;
+		 padding-left:10px;	
+		 	 }		  
+.jdtj2 ul li {
+	          width:105px;
+			  height:28px;
+			  float:left;
+			  font-size:14px;
+			  background:#CCC;
+			  color:#666;
+			  text-align:center;
+			  padding-top:6px;
+			  margin:5px;
+			  border-radius:2px;
+		  }
+		  
+/*热门旅游*/	
+.rmly {
+	    width:365px;
+		height:670px;
+		margin-top:10px;
+		border: solid 1px #CCC;
+		margin-left:10px;
+		}	
+.rmly1 {
+	    width:100%;
+		height:40px;
+		background:#CCC;
+		}				   	   	  
+.rmly1 p {
+	      font-size:18px;
+		  padding:8px;
+		  margin-left:5px;
+		  color:#666;
+		  }	
+.rmly2 {
+	     width:100%;
+		 height:620px;
+		 padding-left:10px;
+		 padding-top:5px;
+		 }
+.rmly2 ul li {
+	          width:162px;
+			  height:145px;
+			  float:left;
+			  font-size:14px;
+			  color:#666;
+			  text-align:center;
+			  margin:5px;
+			  border-radius:2px;
+		  }		
+		  
+/*旅游百宝箱*/
+.lybbx {
+	    width:365px;
+		height:150px;
+		margin-top:10px;
+		border: solid 1px #CCC;
+		margin-left:10px;
+		}
+.lybbx1 {
+	    width:100%;
+		height:40px;
+		background:#CCC;
+		}	
+.lybbx1 p {
+	      font-size:18px;
+		  padding:8px;
+		  margin-left:5px;
+		  color:#666;
+		  }	
+.lybbx2 {
+	     width:100%;
+		 height:110px;
+		 padding-left:10px;
+		 margin-top:5px;
+		 }
+.lybbx2 ul li {
+	          width:150px;
+			  height:30px;
+			  display:inline-block;
+			  vertical-align:middle;
+			  font-size:16px;
+			  color:#666;
+			  background:#CCC;
+			  text-align:left;
+			  margin:5px;
+			  border-radius:2px;
+			  padding-left:10px;
+			  padding-top:8px;
+		  }	
+.lybbx2 ul li img{
+	               vertical-align:middle;
+				   width:20px;
+				   height:20px;
+				   }
+				   
+				   
+				   
+				   
+/*这是底部*/
+.footer1{
+	     width:100%;
+		 height:190px;
+		 background:#222222;
+		 }
+		 
+.footer1 ul li {
+	            color:#ccc;
+				padding:5px;
+				}
+.lida {
+	   font-size:18px;
+	   border-bottom:dotted #CCC 1px;
+	   }
+	   
+.diul {
+	   width:1000px;
+	   height:160px;
+	   margin:0 auto;
+	   }	   
+.ul1 { 
+      width:310px;
+	  height:150px;
+	  float:left;
+	  border: solid #222222 10px;
+	  background:#222222;
+	  font-size:12px;
+	  } 
+.ul2 { 
+      width:310px;
+	  height:150px;
+	  float:left;
+	  border: solid #222222 10px;
+	  background:#222222;
+	  font-size:12px;
+	  }
+.ul3 { 
+      width:310px;
+	  height:150px;
+	  float:left;
+	  border: solid #222222 10px;
+	  background:#222222;
+	  font-size:12px;
+	  }	 
+.lia a:link{
+	        text-decoration:none;
+			color:#CCC;
+			}	
+.lia a:visited{
+	           text-decoration:none;
+			   color:#CCC;
+			   }
+.lia a:hover{
+	          text-decoration:none;
+			  color:#CCC;
+			  }
+.lia a:active{
+	          text-decoration:none;
+			  color:#CCC;
+			  }		  			  			       	   							 		 
+.baixian {
+	      width:100%;
+		  height:1px;
+		  background:#999;
+		  clear:left;
+		  }		 
+.footer2 {
+	      width:100%;
+		  height:30px;
+		  background:#000000; 
+		  padding-top:5px;
+		  color:#ccc;
+		  clear:left;
+		  }	
+.copy1 { 
+         font-size:14px;
+		 }		  							 	  		  		 
+					 	  		  		 

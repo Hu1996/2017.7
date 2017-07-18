@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0 ;
+    padding:0 ;
+	font-family:"微软雅黑";
+	}
+ul li{
+	list-style:none;
+	}
+
+/*这是导航栏*/	
+
+header {
+	   width:100%;
+	   height:60px;
+	   background:#333;
+
+		 }
+.header {
+	     width:1200px;
+		 height:60px;
+		 margin:0 auto;
+		 }		 
+.hd1 {
+	  width:490px;
+      height:100%;
+      float:left;
+	  }
+.hd1 img {
+	        width:190px;
+		    height:60px;
+			}	  
+.hd2 { 
+      width:710px;
+      height:100%;
+      float:left;
+	  text-align:center;
+	  }	
+.hd2 ul li {
+	         width:100px;
+			 height:60px;	
+             display:inline-block;
+			 line-height:60px;
+			 color:#FFF;
+			 font-size:18px;
+			 background:#333;
+			 } 
+			 
+.hd2li a{
+	     width:100px;
+	     height:60px;
+	     background:#666;
+	     display:block;
+		 }		 
+	 
+.hd2 ul li a:link {
+	               width:100px;
+				   height:60px;
+				   color:#FFF;
+				   text-decoration:none;
+				   }		 	  	
+				   	 	
+.hd2 ul li a:visited {
+	                  width:100px;
+				      height:60px;
+				      color:#FFF;
+				      text-decoration:none;
+				     }	
+.hd2 ul li a:hover {
+	                  width:100px;
+				      height:60px;
+				      color:#FFF;
+					  display:block;
+				      text-decoration:none;
+					  background:#666;
+				     }
+.hd2 ul li a:active {
+	                  width:100px;
+				      height:60px;
+				      color:#FFF;
+				      text-decoration:none;
+					  background:#999;
+				     }
+					 
+					 					 					 	 	  	
+				 
+/*这是头部*/			 
+.input {
+		width:100%;
+		height:600px; 
+		background:url(../tp/beijing1.jpg);
+		background-size:100% 100%;
+		display:inline-block;
+		}
+		
+.ip { 
+          clear:left;
+          width:604px;
+          height:60px;
+		  background:rgba(45,45,45,0.8);
+		  border-radius:15px;
+		  margin:0 auto;
+		  margin-top:250px;
+		  }	
+.ip1 {
+	 width:465px;
+	 height:50px;
+	 border-radius:15px;
+	 margin:4px;
+	 font-size:18px;
+	 background:#FFF;
+	 border: 1px solid #999;
+	 }
+.ip2 {
+	  width:120px;
+	  height:50px;
+	  border-radius:15px;
+	  color:#666;
+	  font-size:20px;
+	  background:#FFF;
+	  border: 1px solid #999;
+	  }	
+	  
+	  
+/*开始*/	  
+.ktwz {
+	    width:100%;
+		height:150px;
+		text-align:center;
+		margin-top:50px;
+		color:#666;
+		}
+.wz1 { 
+         font-size:50px;
+		 color:#666;
+		 line-height:100px;
+		 }
+.wz2 {
+	     color:#666;
+		 }
+		 
+.aside {
+	    width:1200px;
+		height:1500px;
+		clear:left;
+		margin:0 auto;
+		}		
+.aside ul li {
+	          width:30%;
+			  height:325px;
+			  float:left;
+			  margin:3px;
+			  text-align:left;
+			  padding:8px;
+			  margin:10px;
+			  border-radius:5px;
+		      border:solid 1px #CCC;
+			  position:relative;
+			  z-index:1;
+	          }	
+.aside ul li img {
+	              width:359px;
+				  height:250px;
+				  }			  	
+.ziti1 {
+	    font-size:14px;
+		}
+.ziti2 {
+	    color:#666;
+		font-size:12px;
+		}	
+.zuoce {
+	    color:#F90;
+		font-size:18px;
+		float:left;
+		margin-top:3px;
+		}
+.jaige {
+	    clear:both;
+	    font-size:24px;
+		}	
+.youce {
+	    font-size:12px; 
+		color:#999;
+		float:right;	
+		padding-top:15px;
+		}				
+.hot{
+	width:80px;
+	color:#FFF;
+	height:23px;
+	font-size:16px;
+	background:#8CBD29;
+	text-align:center;
+	padding:1px;
+	position:absolute;
+	border-bottom-right-radius:5px;
+	z-index:3;
+	left: 8px;
+	top: 8px;
+    }	
+		
+/*这是底部*/
+.footer1{
+	     width:100%;
+		 height:190px;
+		 background:#222222;
+		 }
+		 
+.footer1 ul li {
+	            color:#ccc;
+				padding:5px;
+				}
+.lida {
+	   font-size:18px;
+	   border-bottom:dotted #CCC 1px;
+	   }
+	   
+.diul {
+	   width:1000px;
+	   height:160px;
+	   margin:0 auto;
+	   }	   
+.ul1 { 
+      width:310px;
+	  height:150px;
+	  float:left;
+	  border: solid #222222 10px;
+	  background:#222222;
+	  font-size:12px;
+	  } 
+.ul2 { 
+      width:310px;
+	  height:150px;
+	  float:left;
+	  border: solid #222222 10px;
+	  background:#222222;
+	  font-size:12px;
+	  }
+.ul3 { 
+      width:310px;
+	  height:150px;
+	  float:left;
+	  border: solid #222222 10px;
+	  background:#222222;
+	  font-size:12px;
+	  }	 
+.lia a:link{
+	        text-decoration:none;
+			color:#CCC;
+			}	
+.lia a:visited{
+	           text-decoration:none;
+			   color:#CCC;
+			   }
+.lia a:hover{
+	          text-decoration:none;
+			  color:#CCC;
+			  }
+.lia a:active{
+	          text-decoration:none;
+			  color:#CCC;
+			  }		  			  			       	   							 		 
+.baixian {
+	      width:100%;
+		  height:1px;
+		  background:#999;
+		  clear:left;
+		  }		 
+.footer2 {
+	      width:100%;
+		  height:30px;
+		  background:#000000; 
+		  padding-top:5px;
+		  color:#ccc;
+		  clear:left;
+		  }	
+.copy1 { 
+         font-size:14px;
+		 }		  							 	  		  		 
+				
