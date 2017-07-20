@@ -266,17 +266,19 @@
             if( t >= 65 ) {
                 top_nav.style.background = "rgba(60,68,169,0.6)";
                 top_nav.style.boxShadow ="0 5px 5px #3c44a9";
-                top_nav.style.transition="all 0.5s ease";
+                top_nav.style.transition="all 0.5s ease";  
                 top_nav.style.borderBottomLeftRadius = "30px";
-                top_img.style.display='block'
+                top_img.style.right="0px";
+                top_img.style.transition="all 0.5s ease";
                // top_img.style.opacity="1"
             } else {                 
                 top_nav.style.background = "#3c44a9";  
                 top_nav.style.borderRadius = "0px"; 
                 top_nav.style.boxShadow ="none";
-               // top_img.style.opacity="0"  
-                top_img.style.display='none';                
-                top_nav.style.transition="all 0.5s ease"
+               // top_img.style.opacity="0"              
+                top_nav.style.transition="all 0.5s ease";
+                top_img.style.right="-50px";
+                top_img.style.transition="all 0.5s ease";
             };
 
         } 
